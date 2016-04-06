@@ -4,13 +4,13 @@ node_js: '5'
 addons:
   postgresql: '9.4'
 before_script:
-  - bash install.sh
+- bash install.sh
 script:
-  - source env.sh && npm run test
+- source env.sh && npm run test
 notifications:
-  slack: 'aitem:nDUQ4XTKW6m9VrTW89ByLxtA'
+  slack: aitem:nDUQ4XTKW6m9VrTW89ByLxtA
 deploy:
-  app: pumpkin-tart-71750
+  app: protected-beach-29469
   provider: heroku
   api_key:
-    secure: dPo5Cy1QTFxfj7MepK+NO8erzqKlNiGmQ9gUPLoEPWxy2ddtqWFQ5Z9be2C2ko1JFNoloxJiv6D7z3K9GqHIx+QDbAGsijFPsg+Um5EZjL8bPkL0khN67RTLjWqf/F8rPf6zSJcnG4SbXnQHq6TCHQWWlfsKK9RWresADe+Yx/tIYf4aRg3p4FwO20TUYV/PE7rif4IDK6vL4U0i26WgqmrWgEOezrm5I9L2CFMuk/cy9gnJPxAILOFkRvpfSFv/XAjtAs+lDM/C/DMi8uhq6Sq6rHTjsFKc8o7s4wLE+RYnV/QjBosXDDP9ljyFcfhYE4TTpGePp4vm6wBRU9BruPo9mNSEZ9cZ5EsHK0RLoCkw6PEIQfZm8IEgpzlpNGgyHnZ+STI2+y1Xhkj07bC7nDNE7U1FOxxASfeTGC+T57nbw/RHKQFCm5/7TvN69AU9QDUYrrfNT9TzAvKkpZaSlFAVHJPE2yTyKyBq3TkQDRxEtHXy6bBTm6a6/Qb7ZTdZxKYCNWGFBHW1o11MdZux0q2mNpp0rGkI8PBVkUTpPRbt5aGGsIsJxf6Vb6xc03Ie85h1tmbVk2EgI7Ejqpxx5uGWsyCaSgnncngamVQJ9etnloLc+oSQlQrgmxQxpKzV6T/aS37RSeWWDRb8wbvqwktsw2ZdY8ISnHpz8mildm8=
+    secure: Q5s15TqzZlq/BfjjYz76LrSR4aibNNzPH++rzReBGh0QaKMo9ohAfz0f0/xEuZrjlNLl8MPdFPDqZ0N2KH3KTAv2lFoqHRYhwstTmRxdiGolrcHZoSBdmU69xhb7UoUUJ1ypEOr4jp8FwEbU8Z0Ofdzgc0AIRe0pipABHKxvd8qyJLZwtto8fEJqknjB40Fi15wQKVRk5jzxEbYn+2w2R+N4Gu49Opfi3xwavO09AlX/xZ/xWnbYUHXSRdJhcs1Egpvx4jQ6Iffwun2abTC169lGvLPmG/TzEOopM/Mkl6zQIt4syEvBGCuiDGoJjXz9FTSn5LA8albbwiKe1sRbdjRGAgOxX+BwfDYFV6jcSsDJ5kF+59BD2CkROI5/lGl1OnmyMcy8rKIRsosCjItIw5MBnmI4gtcECDKamMApObXF/ReE/6MH0XiJS9ObgBkaAHhrxdWlBVp434l/L8i6p850g9P2TQkbvgYyLZjhVnbwxWklqcaqa3WTI1xmYAQw85UzMtKaRAi1d1urggJZIty8H8DIHwrooBiX49JyZTk2OAhzPmEEhBSraZC5Ek832sSDYx8JpgMjxA/cPN19TKTB7dewk7f2TluYAHMHDKZqdzqyWVBk80rGDUFDZPcSNbBW7u1F2sX1XnhsNCKp+wrKR4o4IhPxxeJDu4U5yjA=
