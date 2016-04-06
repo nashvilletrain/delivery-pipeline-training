@@ -8,7 +8,9 @@ before_script:
 script:
 - source env.sh && npm run test
 notifications:
-  slack: aitem:kfjTXFxdFQxyBbAJ0UtYVqOe
+  slack: devops-training-spb:kfjTXFxdFQxyBbAJ0UtYVqOe
+  on_success: always
+  on_failure: always
 deploy:
   app: protected-beach-29469
   provider: heroku
