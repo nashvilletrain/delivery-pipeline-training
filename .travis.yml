@@ -8,7 +8,7 @@ before_script:
 script:
 - source env.sh && npm run test
 notifications:
-  slack: aitem:nDUQ4XTKW6m9VrTW89ByLxtA
+  slack: aitem:kfjTXFxdFQxyBbAJ0UtYVqOe
 deploy:
   app: protected-beach-29469
   provider: heroku
